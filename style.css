@@ -42,12 +42,4 @@ input[type="checkbox"]:invalid {
 }
 
 
-  /* input[type="checkbox"]:valid { 
-  border: solid 2px green;
-   -webkit-appearance: none;
-  appearance: none;
-  width: 13px;
-  height: 13px;
-  border-radius: 2px;
-  vertical-align: top;
-}
+ 
