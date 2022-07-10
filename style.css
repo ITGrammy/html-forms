@@ -1,0 +1,53 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+label{
+ 
+ 
+  
+  font-weight: bold;
+ 
+  
+}
+
+.row {
+  padding-top: 10px;
+
+}
+
+input:invalid,
+textarea:invalid {
+  border: 2px dashed red;
+}
+
+input:valid,
+textarea:valid {
+  border: 2px solid black;
+}
+
+input[type="checkbox"]:invalid {
+  border: solid 2px red;
+   -webkit-appearance: none;
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+  vertical-align: top;
+}
+
+
+  /* input[type="checkbox"]:valid { 
+  border: solid 2px green;
+   -webkit-appearance: none;
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+  vertical-align: top;
+}

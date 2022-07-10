@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <form action="https://formsubmit.co/b89075e6f0afdfe3c264f34be6f26dc6" method="POST">
+      <!-- your code here -->
+ 
+       <!-- Full Name -->
+    <div class="row">
+      <label for="full_name">*Full Name</label>
+      <div>
+        <input
+          id="full_name"
+          name="full_name"
+          type="text"
+          class="field text fn"
+          value=""
+          maxlength="55"
+          tabindex="1"
+          required
+        />
+      </div>
+    </div>
+    <!--Email-->
+    <div class="row">
+      <label id="title3" for="my-email"> *Email </label>
+      <div>
+        <input
+          id="my-email"
+          name="my-email"
+          type="email"
+          spellcheck="false"
+          placeholder="coderworlds@gmail.com"
+          maxlength="255"
+          tabindex="3"
+          required
+        />
+      </div>
+    </div>
+    <!--Date-->
+    <div class="row">
+      <label for="my-date"> Date </label>
+      <div>
+        <input
+          id="my-date"
+          name="my-date"
+          type="date"
+          spellcheck="false"
+          placeholder="05/05/2022"
+          maxlength="8"
+          tabindex="3"
+        />
+      </div>
+    </div>
+
+    <!--message-->
+    <div class="row">
+      <label for="message"> *Message </label>
+      <div>
+        <textarea
+          id="message"
+          name="message"
+          spellcheck="true"
+          rows="10"
+          cols="50"
+          tabindex="4"
+          required
+        ></textarea>
+      </div>
+    </div>
+    <br />
+    <!--Select Box-->
+    <div class="row">
+      <label for="cars">*Choose a car:</label>
+
+      <select name="cars" id="cars" required>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+    </div>
+    <br />
+    <!-- "id=individual ref for check box, name=category, value=what is recorded in database" -->
+    <div>
+      
+        
+        
+      <input
+        type="checkbox"
+        id="TOS"
+        name="TOS"
+        value="I agree to the terms of service"
+        required
+      />
+      <label for="TOS"> I agree to terms  of service</label
+      ><br />
+      
+      
+    
+    </div>
+    <br />
+    <div>
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+        
+      />
+      <label for="javascript">JavaScript</label>
+    </div>
+    <br />
+    <div><input type="submit" /></div>
+  </form>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
